@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bigcontainer{
+    height: 640px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 255, 249);
+}
+.container{
+    height:400px;
+    width:700px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.signin{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding-top: 60px;
+}
+h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+    text-shadow: -1px 1px 1px gray;
+}
+.icon{
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.icon i{
+    border: 1px solid rgba(60, 57, 57 , 0.4);
+    color: black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 15px;
+    box-shadow: -1px 1px 1px gray;
+}
+p{
+    color: rgb(60, 57, 57);
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+    background-color: rgb(229, 229, 229);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -4px 4px 4px gray;
+}
+.next{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-blend-mode: screen;
+    background: linear-gradient(rgb(25, 0, 82), transparent), linear-gradient(to top left, rgb(116, 40, 163), transparent), linear-gradient(to top right,rgb(174, 0, 0) , transparent);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 100px;
+}
+.next p{
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    width: 270px;
+    font-weight: 500;
+    margin-left: 15px;
+    
+}
+@keyframes slideRight {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-134%);
+    }
+}
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(72%);
+    }
+}
+button{
+    background-color: rgb(255, 166, 0);
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: -4px 4px 4px gray;
+}
+button:hover{
+    background-color: rgb(0, 255, 149);
+}
+h1{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 45%;
+}
+.next button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
